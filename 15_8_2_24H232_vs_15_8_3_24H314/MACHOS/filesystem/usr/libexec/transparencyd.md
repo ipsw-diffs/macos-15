@@ -1,0 +1,57 @@
+## transparencyd
+
+> `/usr/libexec/transparencyd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+   __TEXT.__auth_stubs: 0x2ce0
+   __TEXT.__objc_stubs: 0x1b880
+   __TEXT.__objc_methlist: 0x149e0
+-  __TEXT.__cstring: 0x11ffb
++  __TEXT.__cstring: 0x1207d
+   __TEXT.__objc_classname: 0x2c24
+   __TEXT.__objc_methname: 0x21aee
+   __TEXT.__objc_methtype: 0x714b
+
+   __TEXT.__eh_frame: 0x4d88
+   __DATA_CONST.__auth_got: 0x1680
+   __DATA_CONST.__got: 0xe88
+-  __DATA_CONST.__auth_ptr: 0x608
++  __DATA_CONST.__auth_ptr: 0x610
+   __DATA_CONST.__const: 0x159d0
+   __DATA_CONST.__cfstring: 0xdc40
+   __DATA_CONST.__objc_classlist: 0xc90
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/AppleKeyStore_libs/aeskeywrap.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/AppleKeyStore_libs/backup_serialize.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/AppleKeyStore_libs/platform/platform.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/AppleKeyStore_libs/platform/platform_lib.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/AppleKeyStore_libs/shared_crypto.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_libs/aeskeywrap.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_libs/backup_serialize.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_libs/platform/platform.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_libs/platform/platform_lib.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/AppleKeyStore_libs/shared_crypto.c"
+```

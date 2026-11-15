@@ -1,0 +1,22 @@
+## mod_cache_disk.so
+
+> `/usr/libexec/apache2/mod_cache_disk.so`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+
+```diff
+
+ 880.0.0.701.1
+   __TEXT.__text: 0x800c
+   __TEXT.__auth_stubs: 0x340
+-  __TEXT.__cstring: 0xcff
++  __TEXT.__cstring: 0xd19
+   __TEXT.__unwind_info: 0x80
+   __DATA_CONST.__auth_got: 0x1a0
+   __DATA_CONST.__got: 0x20
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/apache/httpd/modules/cache/mod_cache_disk.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/apache/httpd/modules/cache/mod_cache_disk.c"
+```

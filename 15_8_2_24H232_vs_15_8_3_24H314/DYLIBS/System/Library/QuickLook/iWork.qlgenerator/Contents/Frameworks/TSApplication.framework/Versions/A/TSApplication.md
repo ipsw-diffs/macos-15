@@ -1,0 +1,86 @@
+## TSApplication
+
+> `/System/Library/QuickLook/iWork.qlgenerator/Contents/Frameworks/TSApplication.framework/Versions/A/TSApplication`
+
+```diff
+
+   __TEXT.__objc_methlist: 0x583c
+   __TEXT.__const: 0x3ec2
+   __TEXT.__gcc_except_tab: 0x85c8
+-  __TEXT.__cstring: 0x7660
++  __TEXT.__cstring: 0x79e0
+   __TEXT.__ustring: 0x28
+   __TEXT.__unwind_info: 0x3988
+   __TEXT.__objc_classname: 0xd0b
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/messages/src/TSAArchives.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/messages/src/TSAArchives.sos.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/messages/src/TSACommandArchives.sos.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/cirrus/TSACirrusDocument.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/cirrus/TSKApplicationDelegate_Cirrus.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/NSBundle_TSAAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAApplicationICloudPreferences.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAApplicationPropertiesProvider.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAArchivedGalleryItemSelection.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSABaseApplicationDelegate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSACaptionInfo.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSACaptionLayout.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSADocumentRoot.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSADocumentRoot_Localization.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAGalleryInfo.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAGalleryItem.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAGalleryItemSelection.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAGalleryLayout.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAGalleryRep.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAImageRenderingExporterDelegate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAImportController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAObject3DInfo.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAObject3DInfoPersistenceAdditions.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAObject3DLayout.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAPdfRenderingExporterDelegate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAPdfTagger.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAPreviewImageUtility.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSARenderingExporter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAServerApplicationDelegate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAShortcutController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSATemporaryDocumentSupportManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSATheme.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/common/TSAWebVideoInfo.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/iWorkGenerator/shared/application/mac/TSAFunctionBrowserState.mm"
++ "Oct 16 2026"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/messages/src/TSAArchives.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/messages/src/TSAArchives.sos.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/messages/src/TSACommandArchives.sos.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/cirrus/TSACirrusDocument.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/cirrus/TSKApplicationDelegate_Cirrus.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/NSBundle_TSAAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAApplicationICloudPreferences.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAApplicationPropertiesProvider.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAArchivedGalleryItemSelection.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSABaseApplicationDelegate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSACaptionInfo.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSACaptionLayout.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSADocumentRoot.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSADocumentRoot_Localization.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAGalleryInfo.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAGalleryItem.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAGalleryItemSelection.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAGalleryLayout.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAGalleryRep.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAImageRenderingExporterDelegate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAImportController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAObject3DInfo.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAObject3DInfoPersistenceAdditions.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAObject3DLayout.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAPdfRenderingExporterDelegate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAPdfTagger.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAPreviewImageUtility.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSARenderingExporter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAServerApplicationDelegate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAShortcutController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSATemporaryDocumentSupportManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSATheme.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/common/TSAWebVideoInfo.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/iWorkGenerator/shared/application/mac/TSAFunctionBrowserState.mm"
+- "Oct 12 2026"
+```
