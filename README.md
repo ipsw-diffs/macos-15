@@ -12,7 +12,7 @@ release sequence is implied.
 
 | Device | Comparison | Manifest |
 | --- | --- | --- |
-| `Mac16,1` | [15.8.2 (24H232) → 15.8.3 (24H314)](diffs/15_8_2_24H232_vs_15_8_3_24H314/README.md) | [provenance](manifests/15_8_2_24H232_vs_15_8_3_24H314.json) |
+| `Mac16,1` | [15.8.3 (24H314) → 15.8.3 (24H241)](diffs/15_8_3_24H314_vs_15_8_3_24H241/README.md) | [provenance](manifests/15_8_3_24H314_vs_15_8_3_24H241.json) |
 
 ## Layout and integrity
 
