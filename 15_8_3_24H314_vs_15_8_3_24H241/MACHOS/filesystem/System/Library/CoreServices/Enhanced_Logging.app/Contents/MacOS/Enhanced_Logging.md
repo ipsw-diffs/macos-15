@@ -1,0 +1,79 @@
+## Enhanced Logging
+
+> `/System/Library/CoreServices/Enhanced Logging.app/Contents/MacOS/Enhanced Logging`
+
+```diff
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/ASTSessionManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/AppDelegate.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/BugSessionManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/CollectingView.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/CollectingViewController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/DebugPanel.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/DebugPanelView.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/DeepLinkManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/ELSStatus+Description.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnhancedLoggingManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnhancedLoggingStateConfigurator.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnhancedLoggingStateInputs.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnhancedLoggingUIModels.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/Enhanced_Logging.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnrollConsentViewController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/ErrorManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/ErrorViewController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/FinishedViewController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/GeneratedAssetSymbols.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/Logger+TimberLorry.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/MainWindow.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/NSAlert+TimberLorry.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/Page.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/PageManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/SplashViewController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/StatusItemController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/StatusMenuInfoView.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/TermsAndConditionsViewController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UploadConsentListView.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UploadConsentViewController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UploadProgressView.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UploadingViewController.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UserNotificationManager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/TimberLorry/MacTimberLorry/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/TimberLorry/TimberLorry/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/ASTSessionManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/AppDelegate.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/BugSessionManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/CollectingView.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/CollectingViewController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/DebugPanel.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/DebugPanelView.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/DeepLinkManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/ELSStatus+Description.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnhancedLoggingManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnhancedLoggingStateConfigurator.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnhancedLoggingStateInputs.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnhancedLoggingUIModels.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/Enhanced_Logging.swiftmodule
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/EnrollConsentViewController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/ErrorManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/ErrorViewController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/FinishedViewController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/GeneratedAssetSymbols.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/Logger+TimberLorry.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/MainWindow.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/NSAlert+TimberLorry.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/Page.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/PageManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/SplashViewController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/StatusItemController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/StatusMenuInfoView.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/TermsAndConditionsViewController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UploadConsentListView.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UploadConsentViewController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UploadProgressView.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UploadingViewController.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/TimberLorry/install/TempContent/Objects/TimberLorry.build/MacTimberLorry.build/Objects-normal/arm64e/UserNotificationManager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/TimberLorry/MacTimberLorry/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/TimberLorry/TimberLorry/
+```

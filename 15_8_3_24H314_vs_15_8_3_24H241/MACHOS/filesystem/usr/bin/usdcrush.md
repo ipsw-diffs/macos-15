@@ -1,0 +1,20 @@
+## usdcrush
+
+> `/usr/bin/usdcrush`
+
+```diff
+
+   __TEXT.__auth_stubs: 0x5f0
+   __TEXT.__gcc_except_tab: 0x2a8c
+   __TEXT.__const: 0x2353
+-  __TEXT.__cstring: 0x102f
++  __TEXT.__cstring: 0xffb
+   __TEXT.__unwind_info: 0xf60
+   __DATA_CONST.__auth_got: 0x300
+   __DATA_CONST.__got: 0x100
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/USDLib/USD/pxr/base/tf/refPtr.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/USDLib/USD/pxr/base/tf/weakPtrFacade.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/USDLib/USD/pxr/base/tf/refPtr.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/USDLib/USD/pxr/base/tf/weakPtrFacade.h"
+```

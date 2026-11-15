@@ -1,0 +1,27 @@
+## webfilterproxyd
+
+> `/System/Library/PrivateFrameworks/WebContentAnalysis.framework/Versions/A/Resources/webfilterproxyd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+
+```diff
+
+   __TEXT.__objc_stubs: 0x2360
+   __TEXT.__objc_methlist: 0xb98
+   __TEXT.__const: 0x58
+-  __TEXT.__cstring: 0x1dee
++  __TEXT.__cstring: 0x1dd4
+   __TEXT.__oslogstring: 0x1845
+   __TEXT.__objc_methname: 0x1b9b
+   __TEXT.__objc_classname: 0xca
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebContentFilter/proxy/src/WCFUserSettings.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/WebContentFilter/proxy/src/WCFUserSettings.c"
+```
