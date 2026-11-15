@@ -6,10 +6,11 @@
   "device": "Mac16,1",
   "major_version": 15,
   "anchor": {
-    "version": "15.5 beta",
-    "build": "24F5042g",
-    "released": "2025-04-02T00:00:00Z",
-    "beta": true,
+    "version": "15.8.2",
+    "build": "24H232",
+    "released": "2026-10-26T00:00:00Z",
+    "beta": false,
     "rc": false
-  }
+  },
+  "ota_fallback": true
 }
