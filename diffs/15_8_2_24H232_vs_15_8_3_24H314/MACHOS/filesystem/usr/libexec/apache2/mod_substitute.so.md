@@ -1,0 +1,22 @@
+## mod_substitute.so
+
+> `/usr/libexec/apache2/mod_substitute.so`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+
+```diff
+
+ 880.0.0.701.1
+   __TEXT.__text: 0x406c
+   __TEXT.__auth_stubs: 0x240
+-  __TEXT.__cstring: 0x366
++  __TEXT.__cstring: 0x380
+   __TEXT.__const: 0xb
+   __TEXT.__unwind_info: 0x60
+   __DATA_CONST.__auth_got: 0x120
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/apache/httpd/modules/filters/mod_substitute.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/apache/httpd/modules/filters/mod_substitute.c"
+```
