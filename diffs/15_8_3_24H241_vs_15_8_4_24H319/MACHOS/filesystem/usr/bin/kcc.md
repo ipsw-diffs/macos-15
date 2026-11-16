@@ -1,0 +1,57 @@
+## kcc
+
+> `/usr/bin/kcc`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-693.140.2.703.2
++693.140.2.704.1
+   __TEXT.__text: 0x7644
+   __TEXT.__auth_stubs: 0x770
+   __TEXT.__const: 0x40
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/Derived/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(erealloc.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(get_window_size.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(getarg.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(rand.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libsl.a(sl.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libvers.a(print_version.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/copy_cred_cache.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/dump.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kcc-commands.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kcc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kcc_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kdc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/klist.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kswitch.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/kuser/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/lib/roken/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/lib/sl/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/lib/vers/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/Derived/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(erealloc.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(get_window_size.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(getarg.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(rand.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libsl.a(sl.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libvers.a(print_version.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/copy_cred_cache.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/dump.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kcc-commands.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kcc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kcc_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kdc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/klist.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kcc.build/Objects-normal/arm64e/kswitch.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/kuser/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/lib/roken/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/lib/sl/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/lib/vers/
+```

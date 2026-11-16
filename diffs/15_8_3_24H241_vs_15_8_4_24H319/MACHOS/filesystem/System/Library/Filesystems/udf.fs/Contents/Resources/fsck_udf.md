@@ -1,0 +1,57 @@
+## fsck_udf
+
+> `/System/Library/Filesystems/udf.fs/Contents/Resources/fsck_udf`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__data`
+
+```diff
+
+-319.0.0.702.4
+-  __TEXT.__text: 0x11064
++319.0.0.703.8
++  __TEXT.__text: 0x11200
+   __TEXT.__auth_stubs: 0x430
+   __TEXT.__init_offsets: 0x8
+-  __TEXT.__cstring: 0x35c9
++  __TEXT.__cstring: 0x3787
+   __TEXT.__const: 0x4f5d
+-  __TEXT.__gcc_except_tab: 0x5ac
++  __TEXT.__gcc_except_tab: 0x5a8
+   __TEXT.__unwind_info: 0x508
+   __DATA_CONST.__auth_got: 0x220
+   __DATA_CONST.__got: 0x50
+
+   - /usr/lib/libc++.1.dylib
+   Functions: 359
+   Symbols:   85
+-  CStrings:  390
++  CStrings:  399
+ 
+Functions:
+~ sub_1000015c8 : 288 -> 304
+~ sub_100001b14 -> sub_100001b24 : 676 -> 732
+~ sub_10000456c -> sub_1000045b4 : 192 -> 280
+~ sub_100005fac -> sub_10000604c : 756 -> 776
+~ sub_100009670 -> sub_100009724 : 420 -> 492
+~ sub_100009940 -> sub_100009a3c : 816 -> 880
+~ sub_100009c88 -> sub_100009dc4 : 376 -> 380
+~ sub_10000a118 -> sub_10000a258 : 844 -> 936
+CStrings:
++ "FE/EFE L_EA exceeds sector size (partRef %u, lbn %u)"
++ "Illegal packet length %u in Sparable Partition"
++ "L_EA + L_AD exceeds sector size\t ICB addr: %u"
++ "Sparing table is not memory resident, cannot translate logicalBlkNum %u"
++ "Sparing table size %u cannot hold %u entries"
++ "The VAT has too many entries"
++ "The VAT information length exceeds the VAT stream length"
++ "The VAT is too small to hold its tail"
++ "The lengthOfHeader in VAT ICB exceeds the VAT length"
++ "embedded data length %llu exceeds L_AD %u (partRef %u, lbn %u)"
+- "non-memory resident sparing table is not implemented yet"
+```

@@ -1,0 +1,455 @@
+## Photos
+
+> `/System/Library/Frameworks/Photos.framework/Versions/A/Photos`
+
+```diff
+
+-770.0.181.0.0
+-  __TEXT.__text: 0x299c00
++770.0.188.0.0
++  __TEXT.__text: 0x299cdc
+   __TEXT.__auth_stubs: 0x2600
+-  __TEXT.__objc_methlist: 0x2168c
++  __TEXT.__objc_methlist: 0x21694
+   __TEXT.__const: 0xf60
+   __TEXT.__dlopen_cstrs: 0x47
+   __TEXT.__constg_swiftt: 0x1dc
+
+   __TEXT.__swift5_assocty: 0x80
+   __TEXT.__swift5_proto: 0x2c
+   __TEXT.__swift5_types: 0x18
+-  __TEXT.__cstring: 0x28d16
++  __TEXT.__cstring: 0x28e34
+   __TEXT.__swift5_capture: 0x6c
+   __TEXT.__gcc_except_tab: 0x911c
+   __TEXT.__oslogstring: 0x197bc
+   __TEXT.__ustring: 0x4
+-  __TEXT.__unwind_info: 0x8008
++  __TEXT.__unwind_info: 0x8010
+   __TEXT.__eh_frame: 0x1a0
+   __TEXT.__objc_classname: 0x32b8
+-  __TEXT.__objc_methname: 0x62b1c
+-  __TEXT.__objc_methtype: 0x6686
+-  __TEXT.__objc_stubs: 0x354e0
++  __TEXT.__objc_methname: 0x62b6d
++  __TEXT.__objc_methtype: 0x6698
++  __TEXT.__objc_stubs: 0x35520
+   __DATA_CONST.__got: 0x2398
+   __DATA_CONST.__const: 0x27f0
+   __DATA_CONST.__objc_classlist: 0xca8
+   __DATA_CONST.__objc_catlist: 0x70
+   __DATA_CONST.__objc_protolist: 0x2c0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x11890
++  __DATA_CONST.__objc_selrefs: 0x118a0
+   __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0xa80
+   __DATA_CONST.__objc_arraydata: 0x880
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 12576
+-  Symbols:   28840
+-  CStrings:  20993
++  Functions: 12577
++  Symbols:   28843
++  CStrings:  20996
+ 
+Symbols:
++ -[PHAssetChangeRequest validateWriteAccessForContentURL:ignoreMissingFiles:error:]
++ GCC_except_table10272
++ GCC_except_table10425
++ GCC_except_table10428
++ GCC_except_table10433
++ GCC_except_table10439
++ GCC_except_table10443
++ GCC_except_table10449
++ GCC_except_table10555
++ GCC_except_table10574
++ GCC_except_table10576
++ GCC_except_table10578
++ GCC_except_table10580
++ GCC_except_table10615
++ GCC_except_table10662
++ GCC_except_table10669
++ GCC_except_table10671
++ GCC_except_table10677
++ GCC_except_table10713
++ GCC_except_table10857
++ GCC_except_table10869
++ GCC_except_table10909
++ GCC_except_table10923
++ GCC_except_table10995
++ GCC_except_table10999
++ GCC_except_table11037
++ GCC_except_table11041
++ GCC_except_table11051
++ GCC_except_table11058
++ GCC_except_table11095
++ GCC_except_table11102
++ GCC_except_table11144
++ GCC_except_table11231
++ GCC_except_table11234
++ GCC_except_table11240
++ GCC_except_table11244
++ GCC_except_table11288
++ GCC_except_table11307
++ GCC_except_table11316
++ GCC_except_table11398
++ GCC_except_table11542
++ GCC_except_table11546
++ GCC_except_table11550
++ GCC_except_table11589
++ GCC_except_table11613
++ GCC_except_table11620
++ GCC_except_table11813
++ GCC_except_table12052
++ GCC_except_table12129
++ GCC_except_table12174
++ GCC_except_table12221
++ GCC_except_table12231
++ GCC_except_table12249
++ GCC_except_table12264
++ GCC_except_table12304
++ GCC_except_table12306
++ GCC_except_table12308
++ GCC_except_table12327
++ GCC_except_table4997
++ GCC_except_table5046
++ GCC_except_table5072
++ GCC_except_table5082
++ GCC_except_table5130
++ GCC_except_table5135
++ GCC_except_table5152
++ GCC_except_table5158
++ GCC_except_table5162
++ GCC_except_table5176
++ GCC_except_table5179
++ GCC_except_table5182
++ GCC_except_table5203
++ GCC_except_table5243
++ GCC_except_table5254
++ GCC_except_table5297
++ GCC_except_table5326
++ GCC_except_table5329
++ GCC_except_table5335
++ GCC_except_table5339
++ GCC_except_table5367
++ GCC_except_table5397
++ GCC_except_table5423
++ GCC_except_table5425
++ GCC_except_table5435
++ GCC_except_table5476
++ GCC_except_table5553
++ GCC_except_table5558
++ GCC_except_table5689
++ GCC_except_table5694
++ GCC_except_table5707
++ GCC_except_table5730
++ GCC_except_table5743
++ GCC_except_table5778
++ GCC_except_table5815
++ GCC_except_table5817
++ GCC_except_table6200
++ GCC_except_table6213
++ GCC_except_table6226
++ GCC_except_table6243
++ GCC_except_table6270
++ GCC_except_table6273
++ GCC_except_table6275
++ GCC_except_table6277
++ GCC_except_table6279
++ GCC_except_table6323
++ GCC_except_table6336
++ GCC_except_table6369
++ GCC_except_table6371
++ GCC_except_table6407
++ GCC_except_table6657
++ GCC_except_table6667
++ GCC_except_table6674
++ GCC_except_table6692
++ GCC_except_table6701
++ GCC_except_table6714
++ GCC_except_table6869
++ GCC_except_table7044
++ GCC_except_table7050
++ GCC_except_table7066
++ GCC_except_table7127
++ GCC_except_table7227
++ GCC_except_table7253
++ GCC_except_table7257
++ GCC_except_table7263
++ GCC_except_table7314
++ GCC_except_table7426
++ GCC_except_table7428
++ GCC_except_table7475
++ GCC_except_table7514
++ GCC_except_table7518
++ GCC_except_table7520
++ GCC_except_table7522
++ GCC_except_table7534
++ GCC_except_table7539
++ GCC_except_table7579
++ GCC_except_table7607
++ GCC_except_table7708
++ GCC_except_table7766
++ GCC_except_table7787
++ GCC_except_table7790
++ GCC_except_table7809
++ GCC_except_table7871
++ GCC_except_table7877
++ GCC_except_table7883
++ GCC_except_table7892
++ GCC_except_table7894
++ GCC_except_table7940
++ GCC_except_table8033
++ GCC_except_table8221
++ GCC_except_table8226
++ GCC_except_table8460
++ GCC_except_table8488
++ GCC_except_table8581
++ GCC_except_table8591
++ GCC_except_table8622
++ GCC_except_table8688
++ GCC_except_table8716
++ GCC_except_table8767
++ GCC_except_table8769
++ GCC_except_table8859
++ GCC_except_table8946
++ GCC_except_table8964
++ GCC_except_table9055
++ GCC_except_table9070
++ GCC_except_table9077
++ GCC_except_table9112
++ GCC_except_table9121
++ GCC_except_table9194
++ GCC_except_table9280
++ GCC_except_table9293
++ GCC_except_table9296
++ GCC_except_table9314
++ GCC_except_table9341
++ GCC_except_table9350
++ GCC_except_table9377
++ GCC_except_table9413
++ GCC_except_table9417
++ GCC_except_table9437
++ GCC_except_table9444
++ GCC_except_table9514
++ GCC_except_table9606
++ GCC_except_table9676
++ GCC_except_table9714
++ GCC_except_table9803
++ GCC_except_table9821
++ _objc_msgSend$statFileAtPath:error:
++ _objc_msgSend$validateWriteAccessForContentURL:ignoreMissingFiles:error:
+- GCC_except_table10271
+- GCC_except_table10424
+- GCC_except_table10427
+- GCC_except_table10432
+- GCC_except_table10438
+- GCC_except_table10442
+- GCC_except_table10448
+- GCC_except_table10554
+- GCC_except_table10573
+- GCC_except_table10575
+- GCC_except_table10577
+- GCC_except_table10579
+- GCC_except_table10614
+- GCC_except_table10661
+- GCC_except_table10668
+- GCC_except_table10670
+- GCC_except_table10676
+- GCC_except_table10712
+- GCC_except_table10856
+- GCC_except_table10868
+- GCC_except_table10908
+- GCC_except_table10922
+- GCC_except_table10994
+- GCC_except_table10998
+- GCC_except_table11036
+- GCC_except_table11040
+- GCC_except_table11049
+- GCC_except_table11057
+- GCC_except_table11094
+- GCC_except_table11101
+- GCC_except_table11143
+- GCC_except_table11230
+- GCC_except_table11233
+- GCC_except_table11239
+- GCC_except_table11243
+- GCC_except_table11287
+- GCC_except_table11306
+- GCC_except_table11315
+- GCC_except_table11397
+- GCC_except_table11541
+- GCC_except_table11545
+- GCC_except_table11549
+- GCC_except_table11588
+- GCC_except_table11612
+- GCC_except_table11619
+- GCC_except_table11812
+- GCC_except_table12051
+- GCC_except_table12128
+- GCC_except_table12173
+- GCC_except_table12220
+- GCC_except_table12230
+- GCC_except_table12248
+- GCC_except_table12263
+- GCC_except_table12303
+- GCC_except_table12305
+- GCC_except_table12307
+- GCC_except_table12326
+- GCC_except_table4996
+- GCC_except_table5045
+- GCC_except_table5071
+- GCC_except_table5081
+- GCC_except_table5129
+- GCC_except_table5134
+- GCC_except_table5151
+- GCC_except_table5157
+- GCC_except_table5161
+- GCC_except_table5175
+- GCC_except_table5178
+- GCC_except_table5181
+- GCC_except_table5202
+- GCC_except_table5242
+- GCC_except_table5253
+- GCC_except_table5296
+- GCC_except_table5325
+- GCC_except_table5328
+- GCC_except_table5334
+- GCC_except_table5338
+- GCC_except_table5366
+- GCC_except_table5396
+- GCC_except_table5422
+- GCC_except_table5424
+- GCC_except_table5434
+- GCC_except_table5475
+- GCC_except_table5552
+- GCC_except_table5557
+- GCC_except_table5688
+- GCC_except_table5693
+- GCC_except_table5706
+- GCC_except_table5729
+- GCC_except_table5742
+- GCC_except_table5777
+- GCC_except_table5814
+- GCC_except_table5816
+- GCC_except_table6199
+- GCC_except_table6212
+- GCC_except_table6225
+- GCC_except_table6242
+- GCC_except_table6269
+- GCC_except_table6272
+- GCC_except_table6274
+- GCC_except_table6276
+- GCC_except_table6278
+- GCC_except_table6322
+- GCC_except_table6335
+- GCC_except_table6368
+- GCC_except_table6370
+- GCC_except_table6406
+- GCC_except_table6655
+- GCC_except_table6666
+- GCC_except_table6673
+- GCC_except_table6691
+- GCC_except_table6695
+- GCC_except_table6711
+- GCC_except_table6868
+- GCC_except_table7043
+- GCC_except_table7049
+- GCC_except_table7065
+- GCC_except_table7126
+- GCC_except_table7226
+- GCC_except_table7252
+- GCC_except_table7256
+- GCC_except_table7262
+- GCC_except_table7313
+- GCC_except_table7425
+- GCC_except_table7427
+- GCC_except_table7474
+- GCC_except_table7513
+- GCC_except_table7517
+- GCC_except_table7519
+- GCC_except_table7521
+- GCC_except_table7533
+- GCC_except_table7538
+- GCC_except_table7578
+- GCC_except_table7606
+- GCC_except_table7707
+- GCC_except_table7765
+- GCC_except_table7786
+- GCC_except_table7789
+- GCC_except_table7808
+- GCC_except_table7870
+- GCC_except_table7876
+- GCC_except_table7882
+- GCC_except_table7891
+- GCC_except_table7893
+- GCC_except_table7939
+- GCC_except_table8032
+- GCC_except_table8220
+- GCC_except_table8225
+- GCC_except_table8458
+- GCC_except_table8486
+- GCC_except_table8580
+- GCC_except_table8590
+- GCC_except_table8621
+- GCC_except_table8687
+- GCC_except_table8715
+- GCC_except_table8766
+- GCC_except_table8768
+- GCC_except_table8858
+- GCC_except_table8945
+- GCC_except_table8963
+- GCC_except_table9054
+- GCC_except_table9068
+- GCC_except_table9076
+- GCC_except_table9099
+- GCC_except_table9113
+- GCC_except_table9122
+- GCC_except_table9279
+- GCC_except_table9288
+- GCC_except_table9295
+- GCC_except_table9313
+- GCC_except_table9337
+- GCC_except_table9349
+- GCC_except_table9369
+- GCC_except_table9411
+- GCC_except_table9416
+- GCC_except_table9436
+- GCC_except_table9443
+- GCC_except_table9513
+- GCC_except_table9605
+- GCC_except_table9675
+- GCC_except_table9713
+- GCC_except_table9802
+- GCC_except_table9820
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAsset.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAvchdAsset.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportDeviceAsset.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportDeviceSource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLegacyLibrarySource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLibrarySource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportResults.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportSource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportUrlSource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImporter.m"
++ "B36@0:8@16B24^@28"
++ "statFileAtPath:error:"
++ "validateWriteAccessForContentURL:ignoreMissingFiles:error:"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAsset.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAvchdAsset.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportDeviceAsset.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportDeviceSource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLegacyLibrarySource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLibrarySource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportResults.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportSource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportUrlSource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImporter.m"
+```

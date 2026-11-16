@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "failed_sections": [],
+  "skipped_sections": [
+    {
+      "section": "sandbox",
+      "reason": "this ipsw release has no sandbox operation table for the old kernelcache's build"
+    }
+  ]
+}

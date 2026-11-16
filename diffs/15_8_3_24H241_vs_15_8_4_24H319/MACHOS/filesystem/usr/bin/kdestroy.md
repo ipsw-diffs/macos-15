@@ -1,0 +1,37 @@
+## kdestroy
+
+> `/usr/bin/kdestroy`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-693.140.2.703.2
++693.140.2.704.1
+   __TEXT.__text: 0x2b1c
+   __TEXT.__auth_stubs: 0x2e0
+   __TEXT.__const: 0x40
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(get_window_size.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(getarg.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(rand.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libvers.a(print_version.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kdestroy.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kdestroy.build/Objects-normal/arm64e/kdestroy.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kdestroy.build/Objects-normal/arm64e/kdestroy_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/kuser/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/lib/roken/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/lib/vers/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(get_window_size.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(getarg.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(rand.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libvers.a(print_version.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kdestroy.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kdestroy.build/Objects-normal/arm64e/kdestroy.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kdestroy.build/Objects-normal/arm64e/kdestroy_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/kuser/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/lib/roken/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/lib/vers/
+```
