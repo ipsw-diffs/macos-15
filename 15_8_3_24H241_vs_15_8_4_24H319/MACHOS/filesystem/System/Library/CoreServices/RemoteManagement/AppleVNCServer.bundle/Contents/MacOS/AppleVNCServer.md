@@ -1,0 +1,168 @@
+## AppleVNCServer
+
+> `/System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/MacOS/AppleVNCServer`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-709.6.105.6.0
++709.6.105.7.0
+   __TEXT.__text: 0x7e024
+   __TEXT.__auth_stubs: 0x25b0
+   __TEXT.__objc_stubs: 0x29e0
+   __TEXT.__objc_methlist: 0xfe8
+-  __TEXT.__cstring: 0x1ccca
++  __TEXT.__cstring: 0x1d37e
+   __TEXT.__oslogstring: 0xc522
+   __TEXT.__const: 0x2080
+   __TEXT.__objc_classname: 0x162
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/LockScreen/LockScreenCommon.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/NewIn108Lib/CCBigNum.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/AuthRandom.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/AuthUtils.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/Clipboard.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/DirectorySearch.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/KerberosUtils.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/KeyMap.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/MouseEventUtils.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/NWConnectionManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/NetBuffer.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/ODHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/RFBCommon.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/SSFileCopy/FileCopyIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/SSFileCopy/FileCopySession.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/ScrapIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/UDPSend.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBCommon/UDPUtils.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/AuthenticateTheViewer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/AutoPasteboardTimer.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/DisplayNotification.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/EncodeCursor.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/EncodeDisplayInfo.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/EncodeMultiVariant.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/EncodeMultiVariantCL.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/EncodeRaw.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/EncodeUserInfo.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/EncodeZRLE.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/EncodeZlib.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/GuestAccessIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/HuffmanEncode.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/OpenGLUtils.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/PrivilegedMode.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/QuickrelayHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/RFBServerUtils.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/SSAgentScreenCapture.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/ScreenTracker.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/ScreenWake.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/SendFrameBuffer.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/SendFrameBufferOpenCL.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/ServerFileCopy.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/SystemInformation.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/SystemInformationNotification.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/TCPSend.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/TCPServer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/TicklePacketTimer.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/TranslatePixels.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/UnixToolHandler.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/ViewerMessages.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/hidpi.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBServer/main.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/RFBViewerLib/UDPReceiver.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/SSAssistanceCursor/SSAssistanceCursorIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/SSPasteboardHelper/SSPasteboardHelperIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/ScreensharingDaemon/ExitTimer.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/CommonUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/GetMACAddressSample.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/Log.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/OSVersionUtils.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/RDSemaphore.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/RDSemaphore.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/RDThread.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/RSAKeyPair.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/RSAKeyPairRFBServer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/SSTimebase.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/RemoteDesktop/common/srp.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/LockScreen/LockScreenCommon.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/NewIn108Lib/CCBigNum.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/AuthRandom.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/AuthUtils.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/Clipboard.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/DirectorySearch.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/KerberosUtils.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/KeyMap.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/MouseEventUtils.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/NWConnectionManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/NetBuffer.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/ODHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/RFBCommon.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/SSFileCopy/FileCopyIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/SSFileCopy/FileCopySession.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/ScrapIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/UDPSend.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBCommon/UDPUtils.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/AuthenticateTheViewer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/AutoPasteboardTimer.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/DisplayNotification.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/EncodeCursor.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/EncodeDisplayInfo.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/EncodeMultiVariant.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/EncodeMultiVariantCL.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/EncodeRaw.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/EncodeUserInfo.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/EncodeZRLE.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/EncodeZlib.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/GuestAccessIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/HuffmanEncode.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/OpenGLUtils.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/PrivilegedMode.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/QuickrelayHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/RFBServerUtils.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/SSAgentScreenCapture.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/ScreenTracker.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/ScreenWake.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/SendFrameBuffer.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/SendFrameBufferOpenCL.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/ServerFileCopy.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/SystemInformation.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/SystemInformationNotification.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/TCPSend.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/TCPServer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/TicklePacketTimer.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/TranslatePixels.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/UnixToolHandler.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/ViewerMessages.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/hidpi.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBServer/main.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/RFBViewerLib/UDPReceiver.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/SSAssistanceCursor/SSAssistanceCursorIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/SSPasteboardHelper/SSPasteboardHelperIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/ScreensharingDaemon/ExitTimer.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/CommonUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/GetMACAddressSample.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/Log.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/OSVersionUtils.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/RDSemaphore.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/RDSemaphore.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/RDThread.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/RSAKeyPair.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/RSAKeyPairRFBServer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/SSTimebase.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/RemoteDesktop/common/srp.m"
+```

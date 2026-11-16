@@ -1,0 +1,22 @@
+## BiometricKit
+
+> `/System/Library/PrivateFrameworks/BiometricKit.framework/Versions/A/BiometricKit`
+
+```diff
+
+-511.100.15.0.0
++511.100.15.700.1
+   __TEXT.__text: 0x30c3c
+   __TEXT.__auth_stubs: 0x550
+   __TEXT.__objc_methlist: 0x29f4
+   __TEXT.__const: 0x148
+   __TEXT.__oslogstring: 0x39d6
+-  __TEXT.__cstring: 0x18af
++  __TEXT.__cstring: 0x18c9
+   __TEXT.__gcc_except_tab: 0xc9c
+   __TEXT.__unwind_info: 0xe40
+   __TEXT.__objc_classname: 0x4e7
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/BiometricKit/TouchID/nodevis.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/BiometricKit/TouchID/nodevis.c"
+```

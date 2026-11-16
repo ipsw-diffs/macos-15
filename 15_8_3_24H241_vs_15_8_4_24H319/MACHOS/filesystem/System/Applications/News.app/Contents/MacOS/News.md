@@ -1,0 +1,139 @@
+## News
+
+> `/System/Applications/News.app/Contents/MacOS/News`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+   __TEXT.__objc_stubs: 0xfa40
+   __TEXT.__objc_methlist: 0x866c
+   __TEXT.__objc_methname: 0x1a3bc
+-  __TEXT.__cstring: 0xa703
++  __TEXT.__cstring: 0xac63
+   __TEXT.__objc_classname: 0x1891
+   __TEXT.__objc_methtype: 0x5448
+   __TEXT.__const: 0x754
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRAccountActionQueueBasedDataActionProvider.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRAnalyticsController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRAppActivityMonitor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRAppDelegate+FRAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRAppDelegate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRApplicationUpdateNotifier.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRArticleEditorialItemDownloader.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRArticleEditorialItemProvider.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRArticlePrefetchManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRBackgroundFetchManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRDestructiveDataMigrationHandler.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRDynamicTypeValueScaler.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FREditorialConfigurationProvider.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FREditorialItemCreator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FREditorialItemEntry.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FREditorialOverrideItem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FREmbedConfigurationOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRFavoritesPersonalizer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRFeedPickerSection.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRFeldsparContextAssembly.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRFlintDataProvider.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRFont.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRGizmoSyncManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRLimitedPersonalizationDataGenerator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRNewsBridgeDeeplinkRouter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRNewsReferralItemEncoding.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRNewsReferralItemWidgetArticleList.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRPersonalizationAutoFavoritesOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRPersonalizationConfiguration.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRPrefetchedArticlesService.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRPresubscribeService.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRPrivateDataUpdateCoordinator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRReferredArticle.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRRingBuffer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRRoutingAssembly.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRSpotlightManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRSubscribedTagRanker.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRTagEditorialItemDownloader.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRToCEditorialManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRTodayAgent.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRURLAnalyticsReferralFactory.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRUnrecognizedURLRouter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRUserInfoUserIDProvider.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRUserOnboardingOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRVanityURLRouterManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/FRVersionHelpers.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/Modules/FeedSubscription/FREnableNotificationsAlertPresenter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/Modules/FeedSubscription/FRFeedSubscriptionAssembly.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/NSIndexPath+FRAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/NSURL+FRAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/UIFont+FRAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/UIFont+FRFeedAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/Feldspar/feldspar/Classes/UIImage+FRAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRAccountActionQueueBasedDataActionProvider.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRAnalyticsController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRAppActivityMonitor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRAppDelegate+FRAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRAppDelegate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRApplicationUpdateNotifier.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRArticleEditorialItemDownloader.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRArticleEditorialItemProvider.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRArticlePrefetchManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRBackgroundFetchManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRDestructiveDataMigrationHandler.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRDynamicTypeValueScaler.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FREditorialConfigurationProvider.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FREditorialItemCreator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FREditorialItemEntry.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FREditorialOverrideItem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FREmbedConfigurationOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRFavoritesPersonalizer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRFeedPickerSection.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRFeldsparContextAssembly.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRFlintDataProvider.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRFont.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRGizmoSyncManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRLimitedPersonalizationDataGenerator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRNewsBridgeDeeplinkRouter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRNewsReferralItemEncoding.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRNewsReferralItemWidgetArticleList.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRPersonalizationAutoFavoritesOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRPersonalizationConfiguration.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRPrefetchedArticlesService.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRPresubscribeService.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRPrivateDataUpdateCoordinator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRReferredArticle.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRRingBuffer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRRoutingAssembly.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRSpotlightManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRSubscribedTagRanker.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRTagEditorialItemDownloader.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRToCEditorialManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRTodayAgent.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRURLAnalyticsReferralFactory.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRUnrecognizedURLRouter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRUserInfoUserIDProvider.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRUserOnboardingOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRVanityURLRouterManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/FRVersionHelpers.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/Modules/FeedSubscription/FREnableNotificationsAlertPresenter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/Modules/FeedSubscription/FRFeedSubscriptionAssembly.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/NSIndexPath+FRAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/NSURL+FRAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/UIFont+FRAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/UIFont+FRFeedAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/Feldspar/feldspar/Classes/UIImage+FRAdditions.m"
+```

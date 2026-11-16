@@ -1,0 +1,53 @@
+## iOSScreenCaptureAssistant
+
+> `/System/Library/Frameworks/CoreMediaIO.framework/Versions/Current/Resources/iOSScreenCapture.plugin/Contents/Resources/iOSScreenCaptureAssistant`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_selrefs`
+
+```diff
+
+-5590.122.2.0.3
++5590.122.2.0.4
+   __TEXT.__text: 0x1d34c
+   __TEXT.__auth_stubs: 0xf50
+   __TEXT.__objc_stubs: 0xe0
+   __TEXT.__const: 0x270
+-  __TEXT.__cstring: 0x1ccf
++  __TEXT.__cstring: 0x1e21
+   __TEXT.__oslogstring: 0x2baf
+   __TEXT.__gcc_except_tab: 0x15cc
+   __TEXT.__objc_methname: 0xcf
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/DS/Both/CMIO_DS_Both_MachPort.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/CMIO_DPA_ISR_Server_Assistant.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/CMIO_DPA_ISR_Server_SystemStatus.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/Device/CMIO_DPA_ISR_Server_ClientStream.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/Device/CMIO_DPA_ISR_Server_Device.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/Device/CMIO_DPA_ISR_Server_USBA_Assistance.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/Device/CMIO_DPA_ISR_Server_Valeria.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/FigSampleBufferAtomSerialization.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/Extras/CoreMediaIO/PublicUtility/CMIO_Buffer.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/Extras/CoreMediaIO/PublicUtility/CoreMediaAssistant/CMIO_CMA_SampleBuffer.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/Extras/CoreMediaIO/PublicUtility/IOKitAssistant/CMIO_IOKA_PowerNotification.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/Utility/CoreMediaAssistant/CMIO_CMA_Nero.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/CoreMediaIOPlugins/Sources/Utility/MobileDeviceAssistant/CMIO_MDA_Device.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/DS/Both/CMIO_DS_Both_MachPort.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/CMIO_DPA_ISR_Server_Assistant.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/CMIO_DPA_ISR_Server_SystemStatus.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/Device/CMIO_DPA_ISR_Server_ClientStream.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/Device/CMIO_DPA_ISR_Server_Device.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/Device/CMIO_DPA_ISR_Server_USBA_Assistance.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/Device/CMIO_DPA_ISR_Server_Valeria.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/DeviceAbstractionLayer/Devices/ISR/Assistant/Server/FigSampleBufferAtomSerialization.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/Extras/CoreMediaIO/PublicUtility/CMIO_Buffer.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/Extras/CoreMediaIO/PublicUtility/CoreMediaAssistant/CMIO_CMA_SampleBuffer.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/Extras/CoreMediaIO/PublicUtility/IOKitAssistant/CMIO_IOKA_PowerNotification.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/Utility/CoreMediaAssistant/CMIO_CMA_Nero.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/CoreMediaIOPlugins/Sources/Utility/MobileDeviceAssistant/CMIO_MDA_Device.h"
+```

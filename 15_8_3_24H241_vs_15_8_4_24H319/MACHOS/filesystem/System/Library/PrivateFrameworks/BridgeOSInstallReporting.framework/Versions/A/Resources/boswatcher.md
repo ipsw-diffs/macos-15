@@ -1,0 +1,15 @@
+## boswatcher
+
+> `/System/Library/PrivateFrameworks/BridgeOSInstallReporting.framework/Versions/A/Resources/boswatcher`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+CStrings:
++ "21:07:57"
++ "Oct 16 2026"
+- "00:44:19"
+- "Oct 15 2026"
+```

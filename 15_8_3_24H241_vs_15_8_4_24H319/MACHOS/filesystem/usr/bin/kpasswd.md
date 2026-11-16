@@ -1,0 +1,37 @@
+## kpasswd
+
+> `/usr/bin/kpasswd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-693.140.2.703.2
++693.140.2.704.1
+   __TEXT.__text: 0x2f5c
+   __TEXT.__auth_stubs: 0x390
+   __TEXT.__const: 0x40
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(get_window_size.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(getarg.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(rand.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libvers.a(print_version.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kpasswd.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kpasswd.build/Objects-normal/arm64e/kpasswd.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kpasswd.build/Objects-normal/arm64e/kpasswd_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/kpasswd/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/lib/roken/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/HeimdalExecutables/lib/vers/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(get_window_size.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(getarg.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(rand.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libvers.a(print_version.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kpasswd.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kpasswd.build/Objects-normal/arm64e/kpasswd.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kpasswd.build/Objects-normal/arm64e/kpasswd_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/kpasswd/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/lib/roken/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/HeimdalExecutables/lib/vers/
+```

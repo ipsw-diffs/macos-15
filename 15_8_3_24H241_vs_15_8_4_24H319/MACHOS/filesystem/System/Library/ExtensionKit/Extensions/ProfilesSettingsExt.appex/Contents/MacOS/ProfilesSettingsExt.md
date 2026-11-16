@@ -1,0 +1,177 @@
+## ProfilesSettingsExt
+
+> `/System/Library/ExtensionKit/Extensions/ProfilesSettingsExt.appex/Contents/MacOS/ProfilesSettingsExt`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+   __TEXT.__objc_stubs: 0x7820
+   __TEXT.__objc_methlist: 0x2d2c
+   __TEXT.__gcc_except_tab: 0xe84c
+-  __TEXT.__cstring: 0xefd3
++  __TEXT.__cstring: 0xf623
+   __TEXT.__const: 0x2764
+   __TEXT.__objc_classname: 0x6ce
+   __TEXT.__objc_methname: 0x8a4d
+
+   __TEXT.__eh_frame: 0x160
+   __DATA_CONST.__auth_got: 0x11a0
+   __DATA_CONST.__got: 0xb00
+-  __DATA_CONST.__auth_ptr: 0x658
++  __DATA_CONST.__auth_ptr: 0x640
+   __DATA_CONST.__const: 0x3010
+   __DATA_CONST.__cfstring: 0xd240
+   __DATA_CONST.__objc_classlist: 0x1e0
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/AsyncUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/CFUtil.cp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/CertificateInfo.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/FileUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/LocUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/Logger.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/MiscUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/NSUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/ODUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/SecurityUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/SerialRunner.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/StdErrors.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/Common/XPCUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/AccountsUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/AppleAccountUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CPAdminRights.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CPDestination.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CPDestination.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CPFAccess.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CPInstallerUIPriv.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CPKeychainItems.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CPProfileAdminRights.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CertPayloadUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/CloudConfigUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/ConfigProfileUtil.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/ConfigProfileUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/KeyPathUtils.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/MDMCertUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/MDMXPCUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/ManagedAppleIDUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/ProfilePurgatoryShared.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/ProvProfileUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/RMUIUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/StripPayloadContent.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/CPCommon/UserManagementUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallMissingFields.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallMissingFieldsViewController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallMissingInfoWindowController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallSignInController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallSimpleDetailsWindowController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallUpdatePasswordWindowController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallWarningsPromptAlertController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallWarningsViewController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstalledProfiles.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallerUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneActions.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneInstallProfileAction.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneRMViewModels.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneRemoveProfileAction.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneViewModelManager.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneViewModels.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsViewActions.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsViewModel.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsViewModelExporter.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsViewModelSectionBuilder.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileListViewModelManager.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/PrefsPaneCloudConfig.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/ProfilePurgatory.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.<TMP>/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/ProfilesExtensionUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/AsyncUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/CFUtil.cp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/CertificateInfo.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/FileUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/LocUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/Logger.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/MiscUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/NSUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/ODUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/SecurityUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/SerialRunner.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/StdErrors.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/Common/XPCUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/AccountsUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/AppleAccountUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CPAdminRights.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CPDestination.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CPDestination.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CPFAccess.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CPInstallerUIPriv.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CPKeychainItems.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CPProfileAdminRights.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CertPayloadUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/CloudConfigUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/ConfigProfileUtil.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/ConfigProfileUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/KeyPathUtils.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/MDMCertUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/MDMXPCUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/ManagedAppleIDUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/ProfilePurgatoryShared.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/ProvProfileUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/RMUIUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/StripPayloadContent.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/CPCommon/UserManagementUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallMissingFields.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallMissingFieldsViewController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallMissingInfoWindowController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallSignInController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallSimpleDetailsWindowController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallUpdatePasswordWindowController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallWarningsPromptAlertController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallWarningsViewController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstalledProfiles.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPInstallerUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneActions.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneInstallProfileAction.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneRMViewModels.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneRemoveProfileAction.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneViewModelManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPPrefPaneViewModels.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsViewActions.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsViewModel.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsViewModelExporter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileDetailsViewModelSectionBuilder.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/CPProfileListViewModelManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/PrefsPaneCloudConfig.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/ProfilePurgatory.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/MCXTools/ConfigProfiles/ProfilesSettingsExtension/ProfilesExtensionUtil.mm"
+```
